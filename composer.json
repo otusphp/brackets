@@ -1,0 +1,22 @@
+{
+    "name": "otusphp/brackets",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "OtusPHP",
+            "email": "otusphp@yandex.ru"
+        }
+    ],
+    "require": {
+        "php": ">=7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7"
+    },
+    "autoload": {
+        "psr-4": {
+            "OtusPHP\\": "src"
+        }
+    }
+}
